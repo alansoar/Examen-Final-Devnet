@@ -1,7 +1,7 @@
 asvlan = input("Ingrese el número de VLAN: ")
 
-if vlan.isdigit():
-    vlan = int(vlan)
+if asvlan.isdigit():
+    vlan = int(asvlan)
     if 1 <= vlan <= 1005:
         print("VLAN Estándar")
     elif 1006 <= vlan <= 4094:
